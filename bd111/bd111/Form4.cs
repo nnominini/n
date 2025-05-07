@@ -19,7 +19,9 @@ namespace bd111
 
         private void zuult2_Click(object sender, EventArgs e)
         {
-
+            Form2 form2 = new Form2();   // Form2-ийг дуудаж байна
+            form2.Show();                // Шинэ цонх (form) нээж байна
+            this.Hide();
         }
 
         private void aboutus4_Click(object sender, EventArgs e)
@@ -46,7 +48,20 @@ namespace bd111
         private void acc4_Click(object sender, EventArgs e)
         {
             Form11 form11 = new Form11();
-            form11.Show();
+            FormManager.OpenForm(this, form11);
+        }
+
+        private void buguivch4_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();   // Form2-ийг дуудаж байна
+            form2.Show();                // Шинэ цонх (form) нээж байна
+            this.Hide();
+        }
+
+        private void fav4_Click(object sender, EventArgs e)
+        {
+            Form14 form14 = new Form14();
+            form14.Show();
             this.Hide();
         }
     }

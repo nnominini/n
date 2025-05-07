@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form10));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button11 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.eemeg10 = new System.Windows.Forms.Button();
             this.bugj10 = new System.Windows.Forms.Button();
@@ -84,7 +85,6 @@
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel13.SuspendLayout();
@@ -133,6 +133,17 @@
             this.groupBox2.Size = new System.Drawing.Size(633, 898);
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(37, 67);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(44, 42);
+            this.button11.TabIndex = 29;
+            this.button11.Text = "🏠︎";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // label1
             // 
@@ -213,6 +224,7 @@
             this.button16.TabIndex = 20;
             this.button16.Text = "❤️";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -676,17 +688,6 @@
             this.label61.Size = new System.Drawing.Size(93, 16);
             this.label61.TabIndex = 0;
             this.label61.Text = "Hoop earrings";
-            // 
-            // button11
-            // 
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(37, 67);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(44, 42);
-            this.button11.TabIndex = 29;
-            this.button11.Text = "🏠︎";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // Form10
             // 

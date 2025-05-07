@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button11 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.eemeg3 = new System.Windows.Forms.Button();
@@ -53,7 +54,6 @@
             this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.panel12.SuspendLayout();
             this.SuspendLayout();
@@ -81,6 +81,17 @@
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(37, 67);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(44, 42);
+            this.button11.TabIndex = 30;
+            this.button11.Text = "🏠︎";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // richTextBox1
             // 
@@ -170,6 +181,7 @@
             this.button16.TabIndex = 20;
             this.button16.Text = "❤️";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -320,17 +332,6 @@
             this.label45.Size = new System.Drawing.Size(132, 44);
             this.label45.TabIndex = 20;
             this.label45.Text = "Annomi";
-            // 
-            // button11
-            // 
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(37, 67);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(44, 42);
-            this.button11.TabIndex = 30;
-            this.button11.Text = "🏠︎";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // Form3
             // 

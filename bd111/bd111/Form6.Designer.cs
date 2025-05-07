@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form6));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button11 = new System.Windows.Forms.Button();
             this.eemeg6 = new System.Windows.Forms.Button();
             this.bugj6 = new System.Windows.Forms.Button();
             this.buguivch6 = new System.Windows.Forms.Button();
@@ -52,22 +53,21 @@
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.butsah6 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.avah6 = new System.Windows.Forms.Button();
+            this.sags6 = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.sags6 = new System.Windows.Forms.Button();
-            this.avah6 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.butsah6 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.groupBox2.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -91,6 +91,17 @@
             this.groupBox2.Size = new System.Drawing.Size(636, 898);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(26, 67);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(44, 42);
+            this.button11.TabIndex = 29;
+            this.button11.Text = "🏠︎";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // eemeg6
             // 
@@ -120,6 +131,7 @@
             this.buguivch6.TabIndex = 25;
             this.buguivch6.Text = "Бугуйвч";
             this.buguivch6.UseVisualStyleBackColor = true;
+            this.buguivch6.Click += new System.EventHandler(this.buguivch6_Click);
             // 
             // zuult6
             // 
@@ -158,6 +170,7 @@
             this.fav6.TabIndex = 20;
             this.fav6.Text = "❤️";
             this.fav6.UseVisualStyleBackColor = true;
+            this.fav6.Click += new System.EventHandler(this.fav6_Click);
             // 
             // acc6
             // 
@@ -327,6 +340,80 @@
             this.panel16.Size = new System.Drawing.Size(587, 532);
             this.panel16.TabIndex = 5;
             // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(519, 193);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(53, 22);
+            this.numericUpDown1.TabIndex = 28;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // butsah6
+            // 
+            this.butsah6.BackColor = System.Drawing.Color.OldLace;
+            this.butsah6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butsah6.Location = new System.Drawing.Point(14, 24);
+            this.butsah6.Name = "butsah6";
+            this.butsah6.Size = new System.Drawing.Size(45, 34);
+            this.butsah6.TabIndex = 27;
+            this.butsah6.Text = "◀";
+            this.butsah6.UseVisualStyleBackColor = false;
+            this.butsah6.Click += new System.EventHandler(this.butsah6_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Script MT Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DarkRed;
+            this.label2.Location = new System.Drawing.Point(256, 20);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(104, 37);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "Details";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(515, 160);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(57, 20);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "Silver";
+            // 
+            // avah6
+            // 
+            this.avah6.BackColor = System.Drawing.Color.DarkRed;
+            this.avah6.ForeColor = System.Drawing.Color.OldLace;
+            this.avah6.Location = new System.Drawing.Point(471, 448);
+            this.avah6.Name = "avah6";
+            this.avah6.Size = new System.Drawing.Size(87, 46);
+            this.avah6.TabIndex = 24;
+            this.avah6.Text = "худалдаж авах";
+            this.avah6.UseVisualStyleBackColor = false;
+            this.avah6.Click += new System.EventHandler(this.avah6_Click);
+            // 
+            // sags6
+            // 
+            this.sags6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.sags6.ForeColor = System.Drawing.Color.Black;
+            this.sags6.Location = new System.Drawing.Point(363, 448);
+            this.sags6.Name = "sags6";
+            this.sags6.Size = new System.Drawing.Size(87, 46);
+            this.sags6.TabIndex = 23;
+            this.sags6.Text = "Сагслах";
+            this.sags6.UseVisualStyleBackColor = false;
+            this.sags6.Click += new System.EventHandler(this.sags6_Click);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.OldLace;
+            this.richTextBox1.Location = new System.Drawing.Point(342, 236);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(230, 206);
+            this.richTextBox1.TabIndex = 22;
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            // 
             // pictureBox10
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
@@ -355,93 +442,10 @@
             this.label53.Font = new System.Drawing.Font("Script MT Bold", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label53.Location = new System.Drawing.Point(344, 90);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(214, 41);
+            this.label53.Size = new System.Drawing.Size(207, 39);
             this.label53.TabIndex = 0;
             this.label53.Text = "Hoop earrings";
             this.label53.Click += new System.EventHandler(this.label53_Click);
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.OldLace;
-            this.richTextBox1.Location = new System.Drawing.Point(342, 236);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(230, 206);
-            this.richTextBox1.TabIndex = 22;
-            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
-            // 
-            // sags6
-            // 
-            this.sags6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.sags6.ForeColor = System.Drawing.Color.Black;
-            this.sags6.Location = new System.Drawing.Point(363, 448);
-            this.sags6.Name = "sags6";
-            this.sags6.Size = new System.Drawing.Size(87, 46);
-            this.sags6.TabIndex = 23;
-            this.sags6.Text = "Сагслах";
-            this.sags6.UseVisualStyleBackColor = false;
-            // 
-            // avah6
-            // 
-            this.avah6.BackColor = System.Drawing.Color.DarkRed;
-            this.avah6.ForeColor = System.Drawing.Color.OldLace;
-            this.avah6.Location = new System.Drawing.Point(471, 448);
-            this.avah6.Name = "avah6";
-            this.avah6.Size = new System.Drawing.Size(87, 46);
-            this.avah6.TabIndex = 24;
-            this.avah6.Text = "худалдаж авах";
-            this.avah6.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(515, 160);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 20);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "Silver";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Script MT Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DarkRed;
-            this.label2.Location = new System.Drawing.Point(256, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 37);
-            this.label2.TabIndex = 26;
-            this.label2.Text = "Details";
-            // 
-            // butsah6
-            // 
-            this.butsah6.BackColor = System.Drawing.Color.OldLace;
-            this.butsah6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butsah6.Location = new System.Drawing.Point(14, 24);
-            this.butsah6.Name = "butsah6";
-            this.butsah6.Size = new System.Drawing.Size(45, 34);
-            this.butsah6.TabIndex = 27;
-            this.butsah6.Text = "◀";
-            this.butsah6.UseVisualStyleBackColor = false;
-            this.butsah6.Click += new System.EventHandler(this.butsah6_Click);
-            // 
-            // button11
-            // 
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(26, 67);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(44, 42);
-            this.button11.TabIndex = 29;
-            this.button11.Text = "🏠︎";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(519, 193);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(53, 22);
-            this.numericUpDown1.TabIndex = 28;
-            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // Form6
             // 
@@ -450,15 +454,15 @@
             this.ClientSize = new System.Drawing.Size(677, 920);
             this.Controls.Add(this.groupBox2);
             this.Name = "Form6";
-            this.Text = "Form6";
+            this.Text = " ";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
 
         }

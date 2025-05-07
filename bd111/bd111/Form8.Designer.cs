@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button11 = new System.Windows.Forms.Button();
             this.eemeg6 = new System.Windows.Forms.Button();
             this.bugj6 = new System.Windows.Forms.Button();
             this.buguivch6 = new System.Windows.Forms.Button();
@@ -57,7 +58,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.butsah8 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel16.SuspendLayout();
@@ -85,6 +85,17 @@
             this.groupBox2.TabIndex = 17;
             this.groupBox2.TabStop = false;
             // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(26, 66);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(44, 42);
+            this.button11.TabIndex = 33;
+            this.button11.Text = "🏠︎";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
             // eemeg6
             // 
             this.eemeg6.Location = new System.Drawing.Point(370, 107);
@@ -93,6 +104,7 @@
             this.eemeg6.TabIndex = 27;
             this.eemeg6.Text = "Ээмэг";
             this.eemeg6.UseVisualStyleBackColor = true;
+            this.eemeg6.Click += new System.EventHandler(this.eemeg6_Click);
             // 
             // bugj6
             // 
@@ -102,6 +114,7 @@
             this.bugj6.TabIndex = 26;
             this.bugj6.Text = "Бөгж";
             this.bugj6.UseVisualStyleBackColor = true;
+            this.bugj6.Click += new System.EventHandler(this.bugj6_Click);
             // 
             // buguivch6
             // 
@@ -111,6 +124,7 @@
             this.buguivch6.TabIndex = 25;
             this.buguivch6.Text = "Бугуйвч";
             this.buguivch6.UseVisualStyleBackColor = true;
+            this.buguivch6.Click += new System.EventHandler(this.buguivch6_Click);
             // 
             // zuult8
             // 
@@ -120,6 +134,7 @@
             this.zuult8.TabIndex = 24;
             this.zuult8.Text = "Зүүлт";
             this.zuult8.UseVisualStyleBackColor = true;
+            this.zuult8.Click += new System.EventHandler(this.zuult8_Click);
             // 
             // button15
             // 
@@ -148,6 +163,7 @@
             this.fav6.TabIndex = 20;
             this.fav6.Text = "❤️";
             this.fav6.UseVisualStyleBackColor = true;
+            this.fav6.Click += new System.EventHandler(this.fav6_Click);
             // 
             // acc6
             // 
@@ -321,6 +337,7 @@
             this.button4.TabIndex = 32;
             this.button4.Text = "Хар";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -374,23 +391,12 @@
             this.butsah8.Text = "◀";
             this.butsah8.UseVisualStyleBackColor = false;
             // 
-            // button11
-            // 
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(26, 66);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(44, 42);
-            this.button11.TabIndex = 33;
-            this.button11.Text = "🏠︎";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(655, 920);
+            this.ClientSize = new System.Drawing.Size(653, 920);
             this.Controls.Add(this.groupBox2);
             this.Name = "Form8";
             this.Text = "Form8";

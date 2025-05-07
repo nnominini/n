@@ -1,4 +1,6 @@
-﻿namespace bd111
+﻿using System;
+
+namespace bd111
 {
     partial class Form1
     {
@@ -33,6 +35,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button11 = new System.Windows.Forms.Button();
             this.label33 = new System.Windows.Forms.Label();
             this.eemeg = new System.Windows.Forms.Button();
             this.bugj = new System.Windows.Forms.Button();
@@ -59,34 +62,42 @@
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.fav9 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.fav8 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.fav7 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label50 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.fav6 = new System.Windows.Forms.Button();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.fav5 = new System.Windows.Forms.Button();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.fav4 = new System.Windows.Forms.Button();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.label56 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
+            this.fav3 = new System.Windows.Forms.Button();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
+            this.fav10 = new System.Windows.Forms.Button();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
@@ -150,7 +161,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel11.SuspendLayout();
@@ -259,6 +269,17 @@
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(26, 67);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(44, 42);
+            this.button11.TabIndex = 28;
+            this.button11.Text = "🏠︎";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
             // label33
             // 
             this.label33.AutoSize = true;
@@ -338,6 +359,7 @@
             this.fav1.TabIndex = 20;
             this.fav1.Text = "❤️";
             this.fav1.UseVisualStyleBackColor = true;
+            this.fav1.Click += new System.EventHandler(this.fav1_Click);
             // 
             // acc1
             // 
@@ -530,6 +552,7 @@
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.OldLace;
+            this.panel13.Controls.Add(this.fav9);
             this.panel13.Controls.Add(this.pictureBox3);
             this.panel13.Controls.Add(this.label46);
             this.panel13.Controls.Add(this.label47);
@@ -537,6 +560,18 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(130, 202);
             this.panel13.TabIndex = 8;
+            // 
+            // fav9
+            // 
+            this.fav9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fav9.ForeColor = System.Drawing.Color.DarkRed;
+            this.fav9.Location = new System.Drawing.Point(87, 158);
+            this.fav9.Name = "fav9";
+            this.fav9.Size = new System.Drawing.Size(40, 40);
+            this.fav9.TabIndex = 32;
+            this.fav9.Text = "❤️";
+            this.fav9.UseVisualStyleBackColor = true;
+            this.fav9.Click += new System.EventHandler(this.fav9_Click);
             // 
             // pictureBox3
             // 
@@ -569,6 +604,7 @@
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.OldLace;
+            this.panel14.Controls.Add(this.fav8);
             this.panel14.Controls.Add(this.pictureBox4);
             this.panel14.Controls.Add(this.label48);
             this.panel14.Controls.Add(this.label49);
@@ -576,6 +612,18 @@
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(130, 202);
             this.panel14.TabIndex = 7;
+            // 
+            // fav8
+            // 
+            this.fav8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fav8.ForeColor = System.Drawing.Color.DarkRed;
+            this.fav8.Location = new System.Drawing.Point(87, 158);
+            this.fav8.Name = "fav8";
+            this.fav8.Size = new System.Drawing.Size(40, 40);
+            this.fav8.TabIndex = 31;
+            this.fav8.Text = "❤️";
+            this.fav8.UseVisualStyleBackColor = true;
+            this.fav8.Click += new System.EventHandler(this.fav8_Click);
             // 
             // pictureBox4
             // 
@@ -608,6 +656,7 @@
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.OldLace;
+            this.panel15.Controls.Add(this.fav7);
             this.panel15.Controls.Add(this.pictureBox5);
             this.panel15.Controls.Add(this.label50);
             this.panel15.Controls.Add(this.label51);
@@ -615,6 +664,18 @@
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(129, 202);
             this.panel15.TabIndex = 6;
+            // 
+            // fav7
+            // 
+            this.fav7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fav7.ForeColor = System.Drawing.Color.DarkRed;
+            this.fav7.Location = new System.Drawing.Point(86, 161);
+            this.fav7.Name = "fav7";
+            this.fav7.Size = new System.Drawing.Size(40, 40);
+            this.fav7.TabIndex = 30;
+            this.fav7.Text = "❤️";
+            this.fav7.UseVisualStyleBackColor = true;
+            this.fav7.Click += new System.EventHandler(this.fav7_Click);
             // 
             // pictureBox5
             // 
@@ -647,6 +708,7 @@
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.OldLace;
+            this.panel16.Controls.Add(this.fav6);
             this.panel16.Controls.Add(this.pictureBox10);
             this.panel16.Controls.Add(this.label52);
             this.panel16.Controls.Add(this.label53);
@@ -654,6 +716,18 @@
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(124, 202);
             this.panel16.TabIndex = 5;
+            // 
+            // fav6
+            // 
+            this.fav6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fav6.ForeColor = System.Drawing.Color.DarkRed;
+            this.fav6.Location = new System.Drawing.Point(81, 161);
+            this.fav6.Name = "fav6";
+            this.fav6.Size = new System.Drawing.Size(40, 40);
+            this.fav6.TabIndex = 31;
+            this.fav6.Text = "❤️";
+            this.fav6.UseVisualStyleBackColor = true;
+            this.fav6.Click += new System.EventHandler(this.fav6_Click);
             // 
             // pictureBox10
             // 
@@ -686,6 +760,7 @@
             // panel17
             // 
             this.panel17.BackColor = System.Drawing.Color.OldLace;
+            this.panel17.Controls.Add(this.fav5);
             this.panel17.Controls.Add(this.pictureBox14);
             this.panel17.Controls.Add(this.label54);
             this.panel17.Controls.Add(this.label55);
@@ -693,6 +768,18 @@
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(130, 202);
             this.panel17.TabIndex = 7;
+            // 
+            // fav5
+            // 
+            this.fav5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fav5.ForeColor = System.Drawing.Color.DarkRed;
+            this.fav5.Location = new System.Drawing.Point(86, 159);
+            this.fav5.Name = "fav5";
+            this.fav5.Size = new System.Drawing.Size(40, 40);
+            this.fav5.TabIndex = 32;
+            this.fav5.Text = "❤️";
+            this.fav5.UseVisualStyleBackColor = true;
+            this.fav5.Click += new System.EventHandler(this.fav5_Click);
             // 
             // pictureBox14
             // 
@@ -725,6 +812,7 @@
             // panel18
             // 
             this.panel18.BackColor = System.Drawing.Color.OldLace;
+            this.panel18.Controls.Add(this.fav4);
             this.panel18.Controls.Add(this.pictureBox13);
             this.panel18.Controls.Add(this.label56);
             this.panel18.Controls.Add(this.label57);
@@ -732,6 +820,18 @@
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(130, 202);
             this.panel18.TabIndex = 6;
+            // 
+            // fav4
+            // 
+            this.fav4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fav4.ForeColor = System.Drawing.Color.DarkRed;
+            this.fav4.Location = new System.Drawing.Point(87, 158);
+            this.fav4.Name = "fav4";
+            this.fav4.Size = new System.Drawing.Size(40, 40);
+            this.fav4.TabIndex = 31;
+            this.fav4.Text = "❤️";
+            this.fav4.UseVisualStyleBackColor = true;
+            this.fav4.Click += new System.EventHandler(this.fav4_Click);
             // 
             // pictureBox13
             // 
@@ -764,6 +864,7 @@
             // panel19
             // 
             this.panel19.BackColor = System.Drawing.Color.OldLace;
+            this.panel19.Controls.Add(this.fav3);
             this.panel19.Controls.Add(this.pictureBox12);
             this.panel19.Controls.Add(this.label58);
             this.panel19.Controls.Add(this.label59);
@@ -772,6 +873,18 @@
             this.panel19.Size = new System.Drawing.Size(129, 202);
             this.panel19.TabIndex = 5;
             this.panel19.Click += new System.EventHandler(this.panel19_Click);
+            // 
+            // fav3
+            // 
+            this.fav3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fav3.ForeColor = System.Drawing.Color.DarkRed;
+            this.fav3.Location = new System.Drawing.Point(86, 159);
+            this.fav3.Name = "fav3";
+            this.fav3.Size = new System.Drawing.Size(40, 40);
+            this.fav3.TabIndex = 30;
+            this.fav3.Text = "❤️";
+            this.fav3.UseVisualStyleBackColor = true;
+            this.fav3.Click += new System.EventHandler(this.fav3_Click);
             // 
             // pictureBox12
             // 
@@ -804,6 +917,7 @@
             // panel20
             // 
             this.panel20.BackColor = System.Drawing.Color.OldLace;
+            this.panel20.Controls.Add(this.fav10);
             this.panel20.Controls.Add(this.pictureBox11);
             this.panel20.Controls.Add(this.label60);
             this.panel20.Controls.Add(this.label61);
@@ -812,6 +926,19 @@
             this.panel20.Size = new System.Drawing.Size(124, 202);
             this.panel20.TabIndex = 4;
             this.panel20.Click += new System.EventHandler(this.panel20_Click);
+            this.panel20.Paint += new System.Windows.Forms.PaintEventHandler(this.panel20_Paint);
+            // 
+            // fav10
+            // 
+            this.fav10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fav10.ForeColor = System.Drawing.Color.DarkRed;
+            this.fav10.Location = new System.Drawing.Point(81, 159);
+            this.fav10.Name = "fav10";
+            this.fav10.Size = new System.Drawing.Size(40, 40);
+            this.fav10.TabIndex = 29;
+            this.fav10.Text = "❤️";
+            this.fav10.UseVisualStyleBackColor = true;
+            this.fav10.Click += new System.EventHandler(this.fav10_Click);
             // 
             // pictureBox11
             // 
@@ -1449,17 +1576,6 @@
             this.label6.TabIndex = 1;
             this.label6.Text = "label6";
             // 
-            // button11
-            // 
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(26, 67);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(44, 42);
-            this.button11.TabIndex = 28;
-            this.button11.Text = "🏠︎";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1530,6 +1646,7 @@
 
         }
 
+       
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
@@ -1653,6 +1770,14 @@
         private System.Windows.Forms.Label label63;
         private System.Windows.Forms.Label label64;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button fav5;
+        private System.Windows.Forms.Button fav4;
+        private System.Windows.Forms.Button fav3;
+        private System.Windows.Forms.Button fav10;
+        private System.Windows.Forms.Button fav9;
+        private System.Windows.Forms.Button fav8;
+        private System.Windows.Forms.Button fav7;
+        private System.Windows.Forms.Button fav6;
     }
 }
 

@@ -124,8 +124,60 @@ namespace bd111
         private void acc1_Click(object sender, EventArgs e)
         {
             Form11 form11 = new Form11();
-            form11.Show();
+            FormManager.OpenForm(this, form11);
+        }
+
+        private void fav10_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Амжилттай хадгалагдлаа!");
+        }
+
+
+        private void fav3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Амжилттай хадгалагдлаа!");
+        }
+
+        private void fav4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Амжилттай хадгалагдлаа!");
+        }
+
+        private void fav5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Амжилттай хадгалагдлаа!");
+        }
+
+        private void fav6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Амжилттай хадгалагдлаа!");
+        }
+
+        private void fav7_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Амжилттай хадгалагдлаа!");
+        }
+
+        private void fav8_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Амжилттай хадгалагдлаа!");
+        }
+
+        private void fav9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Амжилттай хадгалагдлаа!");
+        }
+
+        private void fav1_Click(object sender, EventArgs e)
+        {
+            Form14 form14 = new Form14();
+            form14.Show();
             this.Hide();
+        }
+
+        private void panel20_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 

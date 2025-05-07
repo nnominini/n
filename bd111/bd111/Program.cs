@@ -16,7 +16,9 @@ namespace bd111
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            // Form1 биш, Form12-оос эхлүүлж байна:
+            Application.Run(new Form12());
         }
     }
 }

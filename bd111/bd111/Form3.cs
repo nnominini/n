@@ -63,7 +63,9 @@ namespace bd111
 
         private void zuult3_Click_1(object sender, EventArgs e)
         {
-
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
@@ -73,17 +75,23 @@ namespace bd111
 
         private void buguivch3_Click_1(object sender, EventArgs e)
         {
-
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
         }
 
         private void bugj3_Click_1(object sender, EventArgs e)
         {
-
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
         }
 
         private void eemeg3_Click_1(object sender, EventArgs e)
         {
-
+            Form2 form2 = new Form2();   // Form2-ийг дуудаж байна
+            form2.Show();                // Шинэ цонх (form) нээж байна
+            this.Hide();
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -96,7 +104,13 @@ namespace bd111
         private void button17_Click(object sender, EventArgs e)
         {
             Form11 form11 = new Form11();
-            form11.Show();
+            FormManager.OpenForm(this, form11);
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            Form14 form14 = new Form14();
+            form14.Show();
             this.Hide();
         }
     }

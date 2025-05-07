@@ -77,8 +77,36 @@ namespace bd111
         private void button17_Click(object sender, EventArgs e)
         {
             Form11 form11 = new Form11();
-            form11.Show();
+            FormManager.OpenForm(this, form11);
+        }
+
+        private void zuult2_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
             this.Hide();
+        }
+
+        private void buguivch2_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
+        }
+
+        private void bugj2_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            Form14 form14 = new Form14();
+            form14.Show();
+            this.Hide();
+
         }
     }
 }

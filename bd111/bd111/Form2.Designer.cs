@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button11 = new System.Windows.Forms.Button();
             this.eemeg2 = new System.Windows.Forms.Button();
             this.bugj2 = new System.Windows.Forms.Button();
             this.buguivch2 = new System.Windows.Forms.Button();
@@ -83,7 +84,6 @@
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox2.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -133,6 +133,17 @@
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(37, 67);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(44, 42);
+            this.button11.TabIndex = 29;
+            this.button11.Text = "🏠︎";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
             // eemeg2
             // 
             this.eemeg2.BackColor = System.Drawing.Color.OldLace;
@@ -152,6 +163,7 @@
             this.bugj2.TabIndex = 26;
             this.bugj2.Text = "Бөгж";
             this.bugj2.UseVisualStyleBackColor = true;
+            this.bugj2.Click += new System.EventHandler(this.bugj2_Click);
             // 
             // buguivch2
             // 
@@ -161,6 +173,7 @@
             this.buguivch2.TabIndex = 25;
             this.buguivch2.Text = "Бугуйвч";
             this.buguivch2.UseVisualStyleBackColor = true;
+            this.buguivch2.Click += new System.EventHandler(this.buguivch2_Click);
             // 
             // zuult2
             // 
@@ -170,6 +183,7 @@
             this.zuult2.TabIndex = 24;
             this.zuult2.Text = "Зүүлт";
             this.zuult2.UseVisualStyleBackColor = true;
+            this.zuult2.Click += new System.EventHandler(this.zuult2_Click);
             // 
             // button15
             // 
@@ -198,6 +212,7 @@
             this.button16.TabIndex = 20;
             this.button16.Text = "❤️";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -662,17 +677,6 @@
             this.label61.Size = new System.Drawing.Size(93, 16);
             this.label61.TabIndex = 0;
             this.label61.Text = "Hoop earrings";
-            // 
-            // button11
-            // 
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(37, 67);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(44, 42);
-            this.button11.TabIndex = 29;
-            this.button11.Text = "🏠︎";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // panel1
             // 

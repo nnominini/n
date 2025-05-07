@@ -5,8 +5,7 @@ namespace bd111
 {
     public partial class Form6 : Form
     {
-        private decimal basePrice = 110.00m; // Үндсэн үнэ
-
+        private decimal basePrice = 110.00m;
         public Form6()
         {
             InitializeComponent();
@@ -14,16 +13,16 @@ namespace bd111
 
         private void Form6_Load(object sender, EventArgs e)
         {
-            // Анх label52-д үндсэн үнийг харуулах
+            
             label52.Text = $"{basePrice:0.00}$";
             numericUpDown1.Value = 1;
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
-            decimal quantity = numericUpDown1.Value;           // сонгосон тоо
-            decimal totalPrice = basePrice * quantity;         // нийт үнэ = үндсэн үнэ * тоо
-            label52.Text = $"{totalPrice:0.00}$";              // label52 дээр шинэ үнэ харуулах
+            decimal quantity = numericUpDown1.Value;          
+            decimal totalPrice = basePrice * quantity;       
+            label52.Text = $"{totalPrice:0.00}$";            
         }
    
 
@@ -34,7 +33,7 @@ namespace bd111
 
         private void label52_Click(object sender, EventArgs e)
         {
-
+             
         }
 
         private void label53_Click(object sender, EventArgs e)
@@ -49,7 +48,9 @@ namespace bd111
 
         private void zuult_Click(object sender, EventArgs e)
         {
-
+            Form2 form2 = new Form2();   // Form2-ийг дуудаж байна
+            form2.Show();                // Шинэ цонх (form) нээж байна
+            this.Hide();
         }
 
         private void eemeg6_Click(object sender, EventArgs e)
@@ -82,10 +83,34 @@ namespace bd111
         private void acc6_Click(object sender, EventArgs e)
         {
             Form11 form11 = new Form11();
-            form11.Show();
+            FormManager.OpenForm(this, form11);
+        }
+
+        private void buguivch6_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();   // Form2-ийг дуудаж байна
+            form2.Show();                // Шинэ цонх (form) нээж байна
             this.Hide();
         }
 
-       
+        private void fav6_Click(object sender, EventArgs e)
+        {
+            Form14 form14 = new Form14();
+            form14.Show();
+            this.Hide();
+        }
+
+        private void sags6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Амжилттай хадгалагдлаа!");
+        }
+
+        private void avah6_Click(object sender, EventArgs e)
+        {
+            string total = label52.Text; // "110.00$" гэх мэт
+            Form15 form15 = new Form15(total);
+            form15.Show();
+            this.Hide();
+        }
     }
 }
